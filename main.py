@@ -12,7 +12,7 @@ def main():
 
 # Example usage:
     katakana_chars = get_all_katakana()
-    n = int(input("enter: "))
+    n = int(input("Enter the number of katakana characters to be generated: "))
     result = []
     for number in range (n):
         result.append(random.choice(katakana_chars))
